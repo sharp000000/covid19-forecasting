@@ -1,0 +1,3 @@
+[submodule "covid19-forecasting-web"]
+	path = covid19-forecasting-web
+	url = https://github.com/sharp000000/covid19-forecasting-web.git
