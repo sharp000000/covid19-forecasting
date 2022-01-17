@@ -83,4 +83,4 @@ def main(mytimer: func.TimerRequest) -> None:
 
     hospitalization_df = get_hospitalization_data(dates)
 
-    blob_client.upload_blob(pd.concat([data,hospitalization_df]).to_csv(index=False),overwrite=True)
+    blob_client.upload_blob(pd.concat([data,hospitalization_df.interpolate()]).to_csv(index=False),overwrite=True)
