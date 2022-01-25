@@ -37,7 +37,7 @@ def get_missing_dates(blob_client):
     date_list = [base + datetime.timedelta(days=x) for x in range(numdays)]
     dates = []
     [dates.append(i.strftime('%Y-%m-%d')) for i in date_list]
-    return dates
+    return dates[1:]
     
 def get_hospitalization_data(dates):
     """Returns a Pandas DataFrame with data to be added
