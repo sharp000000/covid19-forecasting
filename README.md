@@ -1,6 +1,6 @@
 <h1> Forecasting the Spread of COVID-19 in Ukraine using hospitalization data </h1>
 
-<p>🇺🇦 Due to the war, the government website is down but you can go to another one and <a href="help us](https://health-security.rnbo.gov.ua/">help us</a>🇺🇦</p>
+<p>🇺🇦 Due to the war, the government website is down but you can go to another one and <a href="https://health-security.rnbo.gov.ua/">help us</a>🇺🇦</p>
 
 <p>Data ingestion was done from ukrainian state resource: <a href="https://health-security.rnbo.gov.ua/">https://health-security.rnbo.gov.ua/</a><br> For extracting data on a daily basis was created <a href="https://github.com/sharp000000/covid19-forecasting/tree/master/HospitalizationDataReplenishment(Timer)">python Azure Function</a> with timer trigger configured using CRON expression 0 0 7 * * *</p> 
 
